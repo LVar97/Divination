@@ -1,0 +1,14 @@
+.card__header_content{
+	position: relative;
+	min-height: 124px;
+	max-width: 421px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media all and (max-width: 800px){
+	.card__header_content{
+		max-width: 235px;
+	}
+}

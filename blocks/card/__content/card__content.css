@@ -1,0 +1,11 @@
+.card__content{
+	position: relative;
+	max-width: 503px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.card__content{
+		max-width: 320px;
+	}
+}

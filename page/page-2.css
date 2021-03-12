@@ -31,4 +31,8 @@
 @import url('../blocks/animation-sound/__image/animation-sound__image.css');
 @import url('../blocks/animation-sound/__text/animation-sound__text.css');
 @import url('../blocks/card/__subtitle/_message/card__subtitle_message.css');
+
+
+@import url('../blocks/card/__content/card__content.css');
+@import url('../blocks/card/__header/_content/card__header_content.css');
 @import url('');

@@ -1,7 +1,7 @@
 .card__logo-eye{
 	position: absolute;
 	top: 145px;
-	right: -53px;
+	right: -63px;
 	width: 146px;
 	height: 77px;
 }
@@ -10,7 +10,7 @@
 	.card__logo-eye{
 		width: 84px;
 		height: 44px;
-		right: 0px;
-    top: 75px;
+		right: -64px;
+    top: 80px;
 	}
 }
