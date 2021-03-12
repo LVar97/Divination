@@ -1,0 +1,21 @@
+.opros__input{
+	font-family: 'Roboto';
+	margin: 0 0 35px 0;
+	width: 316px;
+	min-height: 70px;
+	border-radius: 50px;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding-left: 38%;
+}
+
+@media all and (max-width: 800px){
+	.opros__input{
+		width: 179px;
+		min-height: 40px;
+		margin: 0 0 20px 0;
+		text-align: center;
+		font-size: 14px;
+		line-height: 16px;
+		padding-left: 38%;
+	}
+}

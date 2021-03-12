@@ -1,0 +1,14 @@
+.footer__logo-moon{
+	position: absolute;
+	bottom: 48px;
+	left: -40px;
+}
+
+@media all and (max-width: 800px){
+	.footer__logo-moon{
+		width: 52px;
+		height: 52px;
+		left: -20px;
+		bottom: 71px;
+	}
+}

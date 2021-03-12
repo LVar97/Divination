@@ -1,0 +1,10 @@
+.footer__logo-down{
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.footer__logo-down{
+		width: 32px;
+		height: 10px;
+	}
+}

@@ -1,0 +1,12 @@
+.root{
+	max-width: 100%;
+	background-color: #202024;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+@media all and (max-width: 800px){
+	.root{
+		/* max-width: 320px; */
+	}
+}

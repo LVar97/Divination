@@ -1,0 +1,12 @@
+.test{
+	max-width: 500px;
+	padding-top: 133px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.test{
+		max-width: 228px;
+		padding-top: 53px;
+	}
+}

@@ -1,0 +1,12 @@
+.card{
+	/* position: relative; */
+	overflow: hidden;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.card{
+		overflow: hidden;
+	}
+}

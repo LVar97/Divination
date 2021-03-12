@@ -1,0 +1,19 @@
+.header__subtitle{
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 29px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: rgba(255, 255, 255, 0.6);
+	padding: 12px 0 42px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.header__subtitle{
+		font-size: 20px;
+		line-height: 23px;
+	}
+}

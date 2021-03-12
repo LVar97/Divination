@@ -1,0 +1,14 @@
+.card__subtitle_message{
+	background-image: url('../../../../image/message.png');
+	background-repeat: no-repeat;
+	min-height: 184px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.card__subtitle_message{
+		background-size: 259px 94px;
+		max-width: 259px;
+		min-height: 94px;
+	}
+}

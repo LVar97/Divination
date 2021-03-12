@@ -1,0 +1,22 @@
+.result__prediction{
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	text-align: center;
+	color: #F6C866;
+
+	margin: 0 auto;
+	max-width: 380px;
+	min-height: 184px;
+
+	
+}
+
+@media all and (max-width: 800px){
+	.result__prediction{
+		font-size: 16px;
+		line-height: 25px;
+		max-width: 229px;
+		min-height: 151px;
+	}
+}

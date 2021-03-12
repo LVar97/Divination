@@ -1,0 +1,20 @@
+.opros__title{
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #F6C866;
+	margin: 0 auto;
+	padding: 74px 0 47px;
+	max-width: 503px;
+}
+
+@media all and (max-width: 800px){
+	.opros__title{
+		font-size: 16px;
+		line-height: 25px;
+		max-width: 234px;
+		padding: 36px 0 40px;
+	}
+}

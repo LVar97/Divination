@@ -1,0 +1,12 @@
+.result{
+	max-width: 480px;
+	padding-top: 54px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.result{
+		max-width: 320px;
+		padding-top: 24px;
+	}
+}

@@ -1,0 +1,13 @@
+@keyframes showBlock {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.footer_opened{
+	display: flex;
+	animation: showBlock 5s linear forwards;
+}

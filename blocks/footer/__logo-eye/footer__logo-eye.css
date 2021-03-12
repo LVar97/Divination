@@ -1,0 +1,14 @@
+.footer__logo-eye{
+	position: absolute;
+	top: 0;
+	right: -135px;
+}
+
+@media all and (max-width: 800px){
+	.footer__logo-eye{
+		width: 84px;
+		height: 44px;
+		top: 30px;
+		right: -30px;
+	}
+}

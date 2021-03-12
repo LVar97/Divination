@@ -1,0 +1,15 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../blocks/root/root.css');
+
+@import url('../blocks/result/result.css');
+@import url('../blocks/result/__header/result__header.css');
+@import url('../blocks/result/__header/__header-title/result__header-title.css');
+@import url('../blocks/result/__header/__header-title/_bold/result__header-title_bold.css');
+@import url('../blocks/result/__text/result__text.css');
+@import url('../blocks/result/__text/_fetch/result__text_fetch.css');
+@import url('../blocks/result/__text/_footer/result__text_footer.css');
+@import url('../blocks/result/__prediction/result__prediction.css');
+@import url('../blocks/result/__prediction/_upper/result__prediction_upper.css');
+@import url('../blocks/result/__button/result__button.css');
+@import url('../blocks/result/__prediction/_frame/result__prediction_frame.css');

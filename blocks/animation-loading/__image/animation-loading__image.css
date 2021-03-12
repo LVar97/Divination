@@ -1,0 +1,15 @@
+@keyframes rotation {
+	0% {
+			transform:rotate(0deg);
+	}
+	100% {
+			transform:rotate(360deg);
+	}
+}
+
+
+.animation-loading__image{
+	width: 73px;
+	height: 73px;
+	animation: rotation 2s linear;
+}

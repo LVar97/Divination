@@ -1,0 +1,23 @@
+.result__header-title{
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	text-align: center;
+	/* text-transform: uppercase; */
+
+	color: #202024;
+	max-width: 446px;
+	min-height: 120px;
+	margin: 0 auto;
+  padding-top: 10px;
+}
+
+@media all and (max-width: 800px){
+	.result__header-title{
+		font-size: 14px;
+		line-height: 18px;
+		max-width: 232px;
+		min-height: 72px;
+		padding-top: 5px;
+	}
+}

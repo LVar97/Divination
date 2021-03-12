@@ -1,0 +1,12 @@
+.content{
+	max-width: 1440px;
+	padding-top: 160px;
+	display: none;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.content{
+		padding-top: 68px;
+	}
+}

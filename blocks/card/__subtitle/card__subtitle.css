@@ -1,0 +1,25 @@
+.card__subtitle{
+	font-family: 'Bad Script', cursive;
+	padding: 48px 0 37px;
+	margin: 0 auto;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	/* or 140% */
+	text-align: center;
+	color: #FFFFFF;
+	opacity: 0.6;
+	max-width: 421px;
+	min-height: 137px;
+	position: relative;
+}
+
+@media all and (max-width: 800px){
+	.card__subtitle{
+		padding: 22px 0 22px;
+		max-width: 235px;
+		min-height: 40px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+}

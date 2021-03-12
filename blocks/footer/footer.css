@@ -1,0 +1,25 @@
+.footer{
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	/* overflow: hidden; */
+	margin: 0 auto;
+	padding-bottom: 153px;
+	max-width: 1440px;
+}
+
+@media all and (max-width: 800px){
+	.footer{
+		padding-bottom: 97px;
+		overflow: hidden;
+	}
+}
+
+@media all and (max-width: 1440px){
+	.footer{
+		padding-bottom: 97px;
+		overflow: hidden;
+	}
+}

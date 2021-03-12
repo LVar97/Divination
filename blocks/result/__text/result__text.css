@@ -1,0 +1,28 @@
+.result__text{
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 35px;
+	/* or 140% */
+
+	text-align: center;
+	/* text-transform: uppercase; */
+	color: #FFFFFF;
+	margin: 0 auto;
+	padding: 16px 0 16px 0;
+}
+
+.result__text:nth-of-type(2){
+	padding: 31px 0 35px 0;
+}
+
+@media all and (max-width: 800px){
+	.result__text{
+		font-size: 14px;
+		line-height: 16px;
+		padding: 18px 0 20px 0;
+	}
+
+	.result__text:nth-of-type(2){
+		padding: 20px 0 20px 0;
+	}
+}

@@ -1,0 +1,45 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../blocks/root/root.css');
+
+/* header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__subtitle/header__subtitle.css');
+@import url('../blocks/header/__commits/header__commits.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('../blocks/header/__title/_upper/header__title_upper.css');
+@import url('../blocks/header/__image/header__image.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/commits/commits.css');
+
+@import url('../blocks/opros/opros.css');
+@import url('../blocks/opros/__btn/opros__btn.css');
+@import url('../blocks/opros/__link/opros__link.css');
+
+/* content */
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/_opened/content_opened.css');
+
+/* secret */
+@import url('../blocks/secret/secret.css');
+@import url('../blocks/secret/__image/secret__image.css');
+@import url('../blocks/secret/__text/secret__text.css');
+@import url('../blocks/secret/__text/_color/secret__text_color.css');
+
+/* proof */
+@import url('../blocks/proof/proof.css');
+@import url('../blocks/proof/__text/proof__text.css');
+@import url('../blocks/proof/__text/_color/proof__text_color.css');
+
+/* test */
+@import url('../blocks/test/test.css');
+@import url('../blocks/test/__title/test__title.css');
+
+/* footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/_opened/footer_opened.css');
+@import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__logo-up/footer__logo-up.css');
+@import url('../blocks/footer/__logo-down/footer__logo-down.css');
+@import url('../blocks/footer/__logo-eye/footer__logo-eye.css');
+@import url('../blocks/footer/__logo-moon/footer__logo-moon.css');

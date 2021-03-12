@@ -1,0 +1,20 @@
+.header__title{
+	max-width: 500px;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	/* or 140% */
+
+	text-align: center;
+	color: #F6C866;
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.header__title{
+		font-size: 16px;
+		line-height: 25px;
+		padding-bottom: 23px;
+	}
+}

@@ -1,0 +1,16 @@
+.proof{
+	background-image: url('../../image/proof-img.png');
+	width: 100%;
+	min-height: 606px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media all and (max-width: 800px){
+	.proof{
+		background-image: url('../../image/proof-small.png');
+		min-height: 331px;
+	}
+}

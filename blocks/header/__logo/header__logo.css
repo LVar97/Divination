@@ -1,0 +1,17 @@
+.header__logo{
+	width: 390px;
+	min-height: 390px;
+	position: relative;
+	background-image: url('../../../image/circle-header.svg');
+	background-repeat: no-repeat;
+	background-position:  center;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 800px){
+	.header__logo{
+		width: 225px;
+		min-height: 225px;
+		background-size: 225px 225px;
+	}
+}

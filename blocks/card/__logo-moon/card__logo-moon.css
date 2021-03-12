@@ -1,0 +1,16 @@
+.card__logo-moon{
+	position: absolute;
+	left: -45px;
+	bottom: 53px;
+	width: 91px;
+	height: 91px;
+}
+
+@media all and (max-width: 800px){
+	.card__logo-moon{
+		width: 52px;
+		height: 52px;
+		left: -20px;
+		bottom: 71px;
+	}
+}
