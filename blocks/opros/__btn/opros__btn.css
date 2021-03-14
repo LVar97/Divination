@@ -6,6 +6,8 @@
 	border-radius: 50px;
 	border: none;
 	color: #fff;
+	font-size: 20px;
+	line-height: 23px;
 }
 
 @media all and (max-width: 800px){
@@ -13,5 +15,7 @@
 		margin: 0 0 20px 0;
 		width: 182px;
 		min-height: 40px;
+		font-size: 14px;
+		line-height: 16px;
 	}
 }

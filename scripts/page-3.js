@@ -13,7 +13,8 @@ resultBtn.addEventListener('click', () => {
 		for (let key in arr) {
 			console.log( key + ': ' + arr[key] );
 			arr1 = `${key + ': ' + arr[key]}`;
-			fetchText.append(key + ': ' + arr[key] + '; ');
+			fetchText.append(`${key} : ${arr[key]} ; `);
+			
 		}
 	});
 	

@@ -3,7 +3,7 @@
 	font-size: 10px;
 	line-height: 16px;
 	color: #FFFFFF;
-	text-align: center;
+	text-align: justify;
 	max-width: 480px;
 	margin: 0 auto;
 	padding-top: 20px;
@@ -11,8 +11,8 @@
 
 @media all and (max-width: 800px){
 	.result__text_fetch{
-		font-size: 8px;
+		font-size: 6px;
 		line-height: 16px;
-
+		max-width: 300px;
 	}
 }
