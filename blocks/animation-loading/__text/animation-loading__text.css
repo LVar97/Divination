@@ -1,6 +1,6 @@
 .animation-loading__text{
 	font-weight: 300;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 14px;
 	display: flex;
 	align-items: center;
@@ -8,4 +8,10 @@
 	letter-spacing: 0.1em;
 	padding-top: 30px;
 	color: rgba(255, 255, 255, 0.6);
+}
+
+@media all and (max-width: 800px){
+	.animation-loading__text{
+		font-size: 12px;
+	}
 }

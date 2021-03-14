@@ -1,0 +1,13 @@
+.animation-sound_loading{
+	display: flex;
+	flex-direction: column;
+	width: 260px;
+	height: 5px;
+	background-color: #fff;
+	margin-top: 40px;
+	position: relative;
+	border-radius: 5px;
+}
+
+
+

@@ -1,14 +1,19 @@
 .card__subtitle_message{
 	background-image: url('../../../../image/message.png');
 	background-repeat: no-repeat;
-	min-height: 184px;
+	background-position: center center;
+	/* min-height: 184px; */
 	margin: 0 auto;
+	color: #202024;
+	padding: 55px 0 37px;
 }
 
 @media all and (max-width: 800px){
 	.card__subtitle_message{
+		padding: 33px 0 22px;
 		background-size: 259px 94px;
 		max-width: 259px;
 		min-height: 94px;
+		
 	}
 }

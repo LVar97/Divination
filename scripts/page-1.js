@@ -6,7 +6,7 @@ btnAnimation.forEach((el) => {
 	el.addEventListener('click', () => {
 		pageContent.classList.add('content_opened');
 		pageIFooter.classList.add('footer_opened');
-		window.scrollBy ({top: 800, behavior: 'smooth'})
+		window.scrollBy ({top: 600, behavior: 'smooth'})
 		
 	})
 })

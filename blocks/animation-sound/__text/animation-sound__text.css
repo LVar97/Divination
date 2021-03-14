@@ -1,6 +1,6 @@
 .animation-sound__text{
 	font-weight: 300;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 14px;
 	display: flex;
 	align-items: center;
@@ -8,5 +8,11 @@
 	letter-spacing: 0.1em;
 	margin: 0 auto;
 	color: rgba(255, 255, 255, 0.6);
+	padding-top: 52px;
+}
 
+@media all and (max-width: 800px){
+	.animation-sound__text{
+		font-size: 12px;
+	}
 }
