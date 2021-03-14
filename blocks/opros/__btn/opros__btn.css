@@ -1,13 +1,39 @@
+@keyframes move-light {
+  from {
+    transform: translateX(-10em) skewX(45deg);
+	}
+
+  to {
+    transform: translateX(20em) skewX(55deg);
+	}
+}
+
 .opros__btn{
+	font-size: 20px;
+	line-height: 23px; 
 	margin: 0 0 35px 0;
 	width: 316px;
 	min-height: 70px;
-	background: linear-gradient(248.67deg, rgba(254, 173, 53, 0.9) 24.04%, rgb(248, 242, 210, 0.9) 46.06%, rgba(254, 173, 53, 0.9) 74.04%);
-	border-radius: 50px;
 	border: none;
+	border-radius: 50px;
+	position: relative;
+  display: inline-block;
+	background: linear-gradient(90deg, rgba(246,200,102,1) 35%, rgba(254,173,53,1) 100%);
+	/* background: rgb(249,173,68); */
 	color: #fff;
-	font-size: 20px;
-	line-height: 23px;
+  overflow: hidden;
+}
+
+.opros__btn:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3em;
+	height: 100%;
+	background-color: rgba(255, 255, 249, 0.09);
+	transform: translateX(4em) skewX(45deg);
+	animation: move-light 2s infinite linear;
 }
 
 @media all and (max-width: 800px){

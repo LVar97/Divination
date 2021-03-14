@@ -20,10 +20,3 @@
 		padding-left: 38%;
 	}
 }
-
-.opros__input::after{
-	content: '';
-	width: 179px;
-	min-height: 40px;
-	background-color: #000;
-}
